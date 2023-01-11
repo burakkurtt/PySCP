@@ -31,7 +31,7 @@ class Breakwell:
         phase.dynamicsFunc = self.Dynamics
         phase.pathFunc = self.Path
         phase.scale = scale
-        phase.trState = np.ones((2,)) * 2
+        phase.trState = np.ones((2,)) * 2 # tr : Thrust Region
         phase.trControl = np.ones((1,)) * 1
         phase.trSigma = 1
         self.phases = [phase]
